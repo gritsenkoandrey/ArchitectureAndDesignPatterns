@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{5306FFA8-7FE6-4B70-A0F0-DF59F3DACAD5}</ProjectGuid>
+    <ProjectGuid>{9F646DEA-D967-4D11-9319-56862A4331EF}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Lesson_1_HomeWork_1</RootNamespace>
-    <AssemblyName>Lesson_1_HomeWork_1</AssemblyName>
+    <RootNamespace>Lesson_1_HomeWork_2</RootNamespace>
+    <AssemblyName>Lesson_1_HomeWork_2</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,12 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Customer.cs" />
-    <Compile Include="EntityBase.cs" />
-    <Compile Include="IIdGenerator.cs" />
+    <Compile Include="Constants.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Store.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
