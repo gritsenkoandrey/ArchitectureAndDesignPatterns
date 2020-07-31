@@ -4,14 +4,11 @@
     {
         public string Description { get; private set; }
 
-        public Customer(string description) : base ()
+        public Customer(string description)
         {
             Description = description;
         }
 
-        public override string ToString()
-        {
-            return $"{Id} - идентификатор, {Description} - описание";
-        }
+        public override string ToString() => $"{Id} - идентификатор, {Description} - описание";
     }
 }

@@ -3,17 +3,17 @@
 
 namespace Lesson_1_HomeWork_1
 {
-    public abstract class EntityBase : IIdGenerator
+    //идея вынести всю ответственность по генерации Id в базовый класс
+    public abstract class EntityBase
     {
-        protected long Id { get; set; }
+        protected long Id { get; private set; }
 
         protected EntityBase()
         {
             Id = CalculateId();
         }
 
-        // можно убрать интерфейс и сделать метод private
-        public long CalculateId()
+        private long CalculateId()
         {
             long id = DateTime.Now.Ticks;
             return id;

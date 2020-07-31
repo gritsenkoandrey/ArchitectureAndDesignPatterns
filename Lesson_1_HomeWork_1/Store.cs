@@ -2,14 +2,10 @@
 {
     public class Store : EntityBase
     {
-        public Store() : base()
+        public Store()
         {
-
         }
 
-        public override string ToString()
-        {
-            return $"{Id} - идентификатор";
-        }
+        public override string ToString() => $"{Id} - идентификатор";
     }
 }
