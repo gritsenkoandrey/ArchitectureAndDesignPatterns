@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{1D54D373-01B4-4D22-B878-8AAF1322F0E2}</ProjectGuid>
+    <ProjectGuid>{C3CE5A9E-8C98-4E91-A238-452B262DAA28}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Architecture_and_design_patterns</RootNamespace>
-    <AssemblyName>Architecture and design patterns</AssemblyName>
+    <RootNamespace>Lesson_1_4</RootNamespace>
+    <AssemblyName>Lesson_1_4</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -49,6 +49,5 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
