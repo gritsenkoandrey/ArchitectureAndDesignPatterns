@@ -4,7 +4,12 @@
     {
         public string Description { get; private set; }
 
-        public Customer(string description)
+        //public Customer(string description)
+        //{
+        //    Description = description;
+        //}
+
+        public Customer(IIdGenerator idGenerator, string description) : base(idGenerator) 
         {
             Description = description;
         }

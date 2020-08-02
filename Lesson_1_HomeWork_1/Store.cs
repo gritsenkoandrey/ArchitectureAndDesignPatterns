@@ -2,9 +2,11 @@
 {
     public class Store : EntityBase
     {
-        public Store()
-        {
-        }
+        //public Store()
+        //{
+        //}
+
+        public Store(IIdGenerator idGenerator) : base(idGenerator) { }
 
         public override string ToString() => $"{Id} - идентификатор";
     }

@@ -7,8 +7,8 @@ namespace Lesson_1_HomeWork_1
     {
         static void Main(string[] args)
         {
-            EntityBase store = new Store();
-            EntityBase customer = new Customer("HomeWork");
+            EntityBase store = new Store(new DefaultIdGenerator());
+            EntityBase customer = new Customer(new DefaultIdGenerator(), "HomeWork");
 
             Console.WriteLine(store);
             Console.WriteLine(customer);
