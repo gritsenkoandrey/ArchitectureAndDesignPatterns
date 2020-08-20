@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{1D3D75F6-8E4B-49F6-9D04-51B3AF941CD9}</ProjectGuid>
+    <ProjectGuid>{7056113F-DDB1-4FFA-BAA4-9093DB9A8A9A}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Null_Object_1</RootNamespace>
-    <AssemblyName>Template_Method_1</AssemblyName>
+    <RootNamespace>Null_Object</RootNamespace>
+    <AssemblyName>Null_Object</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,11 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Chess.cs" />
-    <Compile Include="Game.cs" />
-    <Compile Include="Preferans.cs" />
+    <Compile Include="AbstractAnimal.cs" />
+    <Compile Include="AnimalFactory.cs" />
+    <Compile Include="NullAnimal.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RealAnimal.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
