@@ -181,6 +181,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Template_Method_2", "Templa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Null_Object", "Null_Object\Null_Object.csproj", "{7056113F-DDB1-4FFA-BAA4-9093DB9A8A9A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Observer_1", "Observer_1\Observer_1.csproj", "{F5B902C1-6C89-4D07-91F8-53C3470F1AEF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -491,6 +493,10 @@ Global
 		{7056113F-DDB1-4FFA-BAA4-9093DB9A8A9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7056113F-DDB1-4FFA-BAA4-9093DB9A8A9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7056113F-DDB1-4FFA-BAA4-9093DB9A8A9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5B902C1-6C89-4D07-91F8-53C3470F1AEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5B902C1-6C89-4D07-91F8-53C3470F1AEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5B902C1-6C89-4D07-91F8-53C3470F1AEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5B902C1-6C89-4D07-91F8-53C3470F1AEF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -578,6 +584,7 @@ Global
 		{1D3D75F6-8E4B-49F6-9D04-51B3AF941CD9} = {C4C84D5E-3B6A-42D4-9AEF-5FFB77422723}
 		{D7CCCB34-E808-4725-B6F4-72313CA59D06} = {C4C84D5E-3B6A-42D4-9AEF-5FFB77422723}
 		{7056113F-DDB1-4FFA-BAA4-9093DB9A8A9A} = {C4C84D5E-3B6A-42D4-9AEF-5FFB77422723}
+		{F5B902C1-6C89-4D07-91F8-53C3470F1AEF} = {C4C84D5E-3B6A-42D4-9AEF-5FFB77422723}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {83CB029C-F23D-4D3D-9B84-1FF79D9A646C}
