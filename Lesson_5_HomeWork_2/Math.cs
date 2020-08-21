@@ -31,7 +31,7 @@ namespace Lesson_5_HomeWork_2
                     return _sum = num1 / num2;
 
                 default:
-                    Console.WriteLine($"Операция {_nameOperation} не опознана");
+                    Console.Write($"Операция {_nameOperation} не опознана ");
                     break;
             }
             return _sum;

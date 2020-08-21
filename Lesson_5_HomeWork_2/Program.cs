@@ -28,6 +28,10 @@ namespace Lesson_5_HomeWork_2
             sum = calculate.Calculate(60, 2);
             Console.WriteLine(sum);
 
+            calculate = new MathProxy("#");
+            sum = calculate.Calculate(10, 10);
+            Console.WriteLine(sum);
+
             Console.ReadLine();
         }
     }
